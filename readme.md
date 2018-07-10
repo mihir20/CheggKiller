@@ -1,5 +1,4 @@
 
-> ShorterURL is a Chrome Extension to get Shorter URL of current page.
 >CheggKiller is a Chrome Extension to avoid refreshing page again and again to get question in chegg. CheggKiller will refresh page and notify you whenever a question is available. This also skips ReCaptcha ;)
 
 
