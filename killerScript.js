@@ -5,7 +5,8 @@ const captchaUrl = "https://www.chegg.com/recaptcha?recaptcha_redirect_url=https
 
 if (location.href == qustionUrl) {
     console.log("Check if there is a question or not");
+    chrome.runtime.sendMessage({ redirect: qustionUrl, load: true });
 }else if (location.href == captchaUrl){
     console.log("redirect to qustion url")
-    chrome.runtime.sendMessage({ redirect: qustionUrl , captcha:true});
+    chrome.runtime.sendMessage({ redirect: qustionUrl , load: true});
 }
