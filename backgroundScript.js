@@ -1,4 +1,6 @@
 
 chrome.runtime.onMessage.addListener(function (request, sender) {
-    chrome.tabs.update(sender.tab.id, { url: request.redirect });
+    if (request.captcha){
+        chrome.tabs.update(sender.tab.id, { url: request.redirect });
+    }
 });

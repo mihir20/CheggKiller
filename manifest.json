@@ -15,5 +15,8 @@
         ],
         "js":["killerScript.js"]
     }],
+    "background":{
+        "scripts": ["backgroundScript.js"]
+    },
     "permissions": ["activeTab"]
 }
