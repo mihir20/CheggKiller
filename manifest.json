@@ -14,7 +14,6 @@
             "https://www.chegg.com/recaptcha?recaptcha_redirect_url=https://www.chegg.com/homework-help/expertquestion&invalid_captcha_return_url=https://www.chegg.com/my/expertqa"
         ],
         "js":["killerScript.js"]
-    }
-    ],
+    }],
     "permissions": ["activeTab"]
 }
