@@ -6,7 +6,7 @@ if (location.href == qustionUrl) {
     if(document.body.innerText.search(noQuesText)>0){
         chrome.runtime.sendMessage({ redirect: qustionUrl, load: true });
     }else{
-        console.log("kaam ho raha hai")
+        chrome.runtime.sendMessage({ load: false});
     }
 }else if (location.href == captchaUrl){
     chrome.runtime.sendMessage({ redirect: qustionUrl , load: true});
