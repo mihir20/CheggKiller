@@ -6,7 +6,7 @@
 # Usage
 
 1. Download `zip` in (https://github.com/mihir20/CheggKiller) page and unzip to local disk.
-2. Open Chrome and navigate to `chrome://extensions/` , enable the `Developer mode`
+2. Open Chrome and navigate to `extensions settings` , enable the `Developer mode`
 3. Click the `Load unpacked extension` , select the unzipped folder.
 
 #HAPPY_CHEGGING
